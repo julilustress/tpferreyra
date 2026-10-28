@@ -1,0 +1,21 @@
+# claves y configuración privada (nunca se suben)
+.env
+.env.*
+!.env.example
+
+# dependencias y entornos
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# bases de datos locales y logs
+*.sqlite3
+*.db
+*.log
+
+# editor y sistema
+.vscode/
+.idea/
+.DS_Store
